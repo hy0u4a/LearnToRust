@@ -11,7 +11,7 @@ fn main() {
     println!("{} + {} = {}", my_number, my_order_number, thrid_number);
 
     let my_number: u8 = 100;
-    let my_number2: u32 = 200;
+    let my_number2: u32 = 100;
     println!("{} + {} = {}", my_number, my_number2, my_number + my_number2 as u8); // as를 통해 타입을 변환할 수 있음
     //char Type은 4바이트
     let my_char: char = 'a';
