@@ -27,4 +27,10 @@ fn main() {
 
     let name: &str = "Rust"; // str 타입은 문자열 슬라이스
     println!("Hello, {}!", name);
+
+    println!("Size of a char: {}", size_of::<char>());
+    println!("Size of bytes : {}", "a".len());
+
+    let text = "안녕!"; // 유니코드의 경우 3bytes
+    println!("Size of text : {} byte and also {} characters.", text.len(), text.chars().count());
 }
