@@ -1,3 +1,3 @@
 fn main() {
-    //2022-10-21
+    println!("Hello, world!");
 }
